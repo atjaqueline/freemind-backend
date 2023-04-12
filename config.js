@@ -5,7 +5,7 @@
 // require("dotenv").config();
 require("colors");
 
-const SECRET_KEY = process.env.SECRET_KEY || "secret-default";
+const SECRET_KEY = process.env.REACT_APP_SECRET_KEY || "secret-default";
 
 const PORT = +process.env.PORT || 3007;
 
